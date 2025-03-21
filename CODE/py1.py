@@ -9,6 +9,6 @@ mean_value = np.mean(arr)
 # Compute the standard deviation of the array using np
 std_dev = np.std(arr)
 
-# Print the results
+#  Print the results
 print(f"Mean of the array: {mean_value}")
 print(f"Standard Deviation of the array: {std_dev}")

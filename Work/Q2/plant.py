@@ -21,7 +21,7 @@ plt.xlabel('Height (cm)')
 plt.ylabel('Leaf Count')
 plt.grid(True)
 plt.savefig(f"{plant}_scatter.png")
-plt.close()  # Close the plot to prepare for the next one
+plt.close()  # Close the plot 
 
 # Histogram - Distribution of Dry Weight
 plt.figure(figsize=(10, 6))
@@ -42,7 +42,7 @@ plt.xlabel('Week')
 plt.ylabel('Height (cm)')
 plt.grid(True)
 plt.savefig(f"{plant}_line_plot.png")
-plt.close()  # Close the plot
+plt.close()  # Close the plot 
 
 # Output confirmation
 print(f"Generated plots for {plant}:")

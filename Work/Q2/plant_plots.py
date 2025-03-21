@@ -25,6 +25,7 @@ print(f"Height data: {height_data} cm")
 print(f"Leaf count data: {leaf_count_data}")
 print(f"Dry weight data: {dry_weight_data} g")
 
+
 plt.figure(figsize=(10, 6))
 plt.scatter(height_data, leaf_count_data, color='b')
 plt.title(f'Height vs Leaf Count for {plant}')
