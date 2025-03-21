@@ -6,7 +6,7 @@ height_data = [50, 55, 60, 65, 70]  # Height data over time (in cm)
 leaf_count_data = [35, 40, 45, 50, 55]  # Leaf count over time
 dry_weight_data = [2.0, 2.0, 2.1, 2.1, 3.0]  # Dry weight over time (in grams)
 
-# Print out the plant data (optional)
+# Print out the plant data 
 print(f"Plant: {plant}")
 print(f"Height data: {height_data} cm")
 print(f"Leaf count data: {leaf_count_data}")
@@ -32,7 +32,7 @@ plt.grid(True)
 plt.savefig(f"{plant}_histogram.png")
 plt.close()  # Close the plot to prepare for the next one
 
-# Line Plot - Plant Height Over Time
+# Line Plot  Plant Height Over Time
 weeks = ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5']  # Time points for the data
 plt.figure(figsize=(10, 6))
 plt.plot(weeks, height_data, marker='o', color='r')
@@ -43,7 +43,7 @@ plt.grid(True)
 plt.savefig(f"{plant}_line_plot.png")
 plt.close()  # Close the plot
 
-# Output confirmation
+# Output confirmation and print them
 print(f"Generated plots for {plant}:")
 print(f"Scatter plot saved as {plant}_scatter.png")
 print(f"Histogram saved as {plant}_histogram.png")
